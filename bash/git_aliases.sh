@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Add to .bash_profile to load automaticly starting a shell 
+# Add to .bash_profile or .bashrc to load automaticly starting a shell 
 # if [ -f ~/git/profiles/bash/git_aliases.sh ]; then
 #         . ~/git/profiles/bash/git_aliases.sh
 # fi
