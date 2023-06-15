@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# Add to .bash_profile to load automaticly starting a shell 
+# if [ -f ~/git/profiles/bash/git_aliases.sh ]; then
+#         . ~/git/profiles/bash/git_aliases.sh
+# fi
+
+# Binds \e - ALT  \C - Strg
+bind '"\eg":"git status;git log -1\n"' # ALT-g
+
 export GIT_EDITOR=vim
 alias gitconfig='git config credential.helper store && git config user.email "Udo.Fischer@deutsche-boerse.com" && git config user.name "pp108"'
 alias gitadd='git add -A'
