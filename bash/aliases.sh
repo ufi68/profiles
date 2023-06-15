@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Add to .bash_profile to load automaticly starting a shell 
+# if [ -f ~/git/profiles/bash/aliases.sh ]; then
+#         . ~/git/profiles/bash/aliases.sh
+# fi
+
 # override aliashome if its is different from /home/<user> - otherweise /home/<user> we will use as default $HOME
 if [ -z ${aliashome+x} ]; then aliashome=$HOME ; fi 
 
