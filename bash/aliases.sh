@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Add to .bash_profile or .bashrc to load automaticly starting a shell 
+# Add to .bash_profile or .bashrc or .bash_aliases to load automaticly starting a shell 
 # if [ -f ~/git/profiles/bash/aliases.sh ]; then
 #         . ~/git/profiles/bash/aliases.sh
 # fi
@@ -24,6 +24,11 @@ alias acd='cd ${aliashome}/git/profiles/bash'
 alias ab=acd
 alias aup='cwd=$(pwd) && acd && gitp && cd $cwd'
 
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
 # Misc
 alias e='vim ${1}'
 alias p='pwd'
@@ -42,7 +47,16 @@ bind '"\ep":"pwd\n"' # ALT-rp
 # https://stackoverflow.com/questions/4438147/alias-with-variable-in-bash
 alias h='_h() { history 50 | grep "$1" ; echo "use !<no> to execute the command from history";}; _h'
 HISTTIMEFORMAT="%F %T: "
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
+# append to the history file, don't overwrite it
+shopt -s histappend
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
 
+# OS Version and name
 alias ver='cat /etc/os-release && cat /proc/version_signature && uname -v'
 
 if [[ ${1} == "-v" ]]; then 
