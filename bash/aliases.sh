@@ -34,9 +34,7 @@ alias grepts='grep -ir ${1}' # grep Text search
 
 # Binds \e - ALT  \C - Strg
 bind '"\ed":"pwd;ls -Al --group-directories-first\n"' # ALT-d
-bind '"\eg":"git status;git log -1\n"' # ALT-g
 bind '"\ep":"pwd\n"' # ALT-rp
-
 
 # History
 # !n execute the no from history
