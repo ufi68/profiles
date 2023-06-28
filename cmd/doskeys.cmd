@@ -1,7 +1,7 @@
 @echo off
 
 REM Clone profiles Repository to your local computer into your git
-REM pushd c:\Users\%username%\git $T git clone https://github.deutsche-boerse.de/pp108/profiles.git
+REM pushd c:\Users\%username%\git $T git clone https://github.com/ufi68/profiles.git
 
 REM if you don't want to add this git path to your %PATH% variable 
 REM add a doskeys.cmd or aliases.cmd to a path directory f.e. bin
@@ -85,7 +85,6 @@ REM Chocolaty
 REM =============================================
 REM choco https://chocolatey.org/
 REM Install from Admin Powershell console 
-REM For DevPc use Webproxy choco install -y golang --proxy webproxy.deutsche-boerse.de:8080
 
 REM Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
@@ -221,7 +220,6 @@ rem hostname
 REM Links
 REM c't 18/2020 S.137 Windows-Eingabeaufforderung | Praxis 
 REM https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/doskey
-REM https://github.deutsche-boerse.de/dev/cbf.SETI/wiki/SETI-Environments-on-OCP-and-how-to-use-them
 
 REM https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands
 REM https://docs.microsoft.com/de-de/windows-server/administration/windows-commands/windows-commands
