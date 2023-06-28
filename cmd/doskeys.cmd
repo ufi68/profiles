@@ -222,7 +222,6 @@ REM c't 18/2020 S.137 Windows-Eingabeaufforderung | Praxis
 REM https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/doskey
 
 REM https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands
-REM https://docs.microsoft.com/de-de/windows-server/administration/windows-commands/windows-commands
 
 REM Hardware 
 REM https://4sysops.com/archives/using-doskey-aliases/
