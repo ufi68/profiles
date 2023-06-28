@@ -235,3 +235,50 @@ REM winver
 
 :: Comment 
 REM Comment after &:: New Comment
+
+REM 40 Windows Commands you NEED to know (in 10 Minutes)
+REM https://www.youtube.com/watch?v=Jfvg3CS1X3A
+REM assoc #Shows file extension associations to programs 
+REM clip #copy to Clipboard f.e. ipconfig | clip 
+REM cls # clear Screen 
+REM chiper #Encrypting File Systems 
+REM findstr <string>
+REM ipconfig /all
+REM ipconfig /all | findstr IPv4
+REM ipconfig /release
+REM ipconfig /renew 
+REM ipconfig /displaydns
+REM ipconfig /renew
+REM ipconfig /flushdns
+REM nslookup <hostname>
+REM getmac /v
+REM powercfg /energy
+REM powercfg /batteryreport
+
+REM chkdsk /f
+REM chkdsk /r
+REM sfc /scannnow
+REM DISM /Online /Cleanup /CheckHealth
+REM DISM /Online /Cleanup /ScanHealth
+REM DISM /Online /Cleanup /RestoreHealth
+REM tasklist
+REM taskkill
+REM netsh wlan show wlanreport
+REM netsh interface show interface
+REM netsh interface ip show address | findstr “IP Address”
+REM netsh interface ip show dnsservers
+REM netsh advfirewall set allprofiles state off
+REM netsh advfirewall set allprofiles state on
+REM ping 
+REM ping -t #permament
+REM tracert
+REM tracert -d
+REM netstat
+REM netstat -af / -o / -e -t 5
+REM route print
+REM route add
+REM route delete
+REM shutdown -s -t <seconds>
+REM shutdown /r /fw /f /t 0
+
+
