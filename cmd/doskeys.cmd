@@ -251,6 +251,8 @@ REM title
 REM curl 
 REM help # or <command> /h
 
+REM driverquery
+REM driverquery /FO list /v
 REM findstr <string>
 REM ipconfig /all
 REM ipconfig /all | findstr IPv4
