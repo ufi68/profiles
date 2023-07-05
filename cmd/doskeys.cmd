@@ -239,17 +239,17 @@ REM Comment after &:: New Comment
 REM 40 Windows Commands you NEED to know (in 10 Minutes)
 REM https://www.youtube.com/watch?v=Jfvg3CS1X3A
 REM https://www.youtube.com/watch?v=prVHU1fLR20
-REM assoc #Shows file extension associations to programs 
+REM assoc & REM Shows file extension associations to programs 
 REM attrib
-REM clip #copy to Clipboard f.e. ipconfig | clip 
-REM cls # clear Screen 
-REM chiper #Encrypting File Systems 
+REM clip & REM copy to Clipboard f.e. ipconfig | clip 
+REM cls & REM clear Screen 
+REM chiper & REM Encrypting File Systems 
 REM color 
 REM curl / curl wttr.in/Frankfurt
 REM prompt 
 REM title 
 REM curl 
-REM help # or <command> /h
+REM help & REM or <command> /h
 
 REM driverquery
 REM driverquery /FO list /v
